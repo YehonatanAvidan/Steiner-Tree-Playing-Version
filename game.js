@@ -1,4 +1,4 @@
-// Connect-the-Dots Game v6.1
+// Connect-the-Dots Game v6.2
 
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
