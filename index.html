@@ -48,11 +48,20 @@
             font-size: 14px;
             cursor: pointer;
         }
+        #instructions {
+            margin-top: 10px;
+            font-size: 16px;
+            text-align: center;
+            color: #666;
+        }
     </style>
 </head>
 <body>
     <div class="game-container">
         <h1>Steiner Tree Game V1.02</h1>
+        <div id="instructions">
+            Your goal is to connect all the dots by clicking on them and dragging the mouse to create lines. The highest score is awarded for the shortest total length of the lines that connect all the dots. Intermediate points may be useful in some cases. Good luck!
+        </div>
         <canvas id="gameCanvas" width="500" height="500"></canvas>
         <div id="score">Score: 0</div>
         <div class="level-buttons">
